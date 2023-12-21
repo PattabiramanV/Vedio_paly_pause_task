@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+
+
+
+video#vedio {
+    width: 100%;
+   height: 600px;
+    
+}
+.cover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* bottom: 0; */
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cover>*{
+    color: white;
+}
+
+.status{
+    display: flex;
+    width: 250px;
+    margin: 20px;
+    background-color: rgb(208, 234, 235);
+}
+.status>*{
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.play{
+    background-color:cyan;
+    border-radius:0 10px 10px  0 ;
+    background-color: rgb(102, 0, 255);
+}
+
+.pause{
+    background-color:cyan;
+    border-radius:10px 0 0  10px;
+    background-color: rgb(102, 0, 255);
+}
+
+
+div#btn {
+    height: 35px;
+    width: 60px;
+    background: white;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    /* margin: 0 auto; */
+    box-shadow: 0px 0px 2px gray;
+    margin-left: 20px;
+}
+.layer {
+    height: 35px;
+    width: 35px;
+    margin: 0;
+    background-color:lightblue;
+    border-radius: 10px;
+    /* position: relative; */
+    /* left: 30px; */
+    position : relative;
+    left : 0;
+    transition: all 1s;
+}
+
+.move{
+    position: relative;
+    left: 30px;
+    /* background-color: brown; */
+    transition: all 1s;
+}
